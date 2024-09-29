@@ -20,7 +20,8 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
             <li
               onClick={() => setHeroCount(0)}
               className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}
-            ></li>
+            >
+            </li>
             <li
               onClick={() => setHeroCount(1)}
               className={heroCount === 1 ? "hero-dot orange" : "hero-dot"}

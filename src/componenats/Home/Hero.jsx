@@ -19,6 +19,7 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
         </div>
         
         <div className="hero-dot-play">
+          
           <ul className="hero-dots">
             <li
               onClick={() => setHeroCount(0)}
@@ -41,6 +42,7 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
             <img onClick={()=>setPlayStatus(!playStatus)} src={playStatus?pause_icon:play_icon} alt="" />
             <p>See the Video</p>
           </div>
+          
         </div>
       </div>
     </>

@@ -12,6 +12,7 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
           <p>{heroData.text1}</p>
           <p>{heroData.text2}</p>
         </div>
+        
         <div className="hero-explore">
           <p>Explors the features</p>
           <img src={arrow_btn} alt="" />

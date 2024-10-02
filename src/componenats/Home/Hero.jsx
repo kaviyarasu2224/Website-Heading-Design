@@ -7,6 +7,7 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
   return (
     <>
       <div className="hero">
+        
         <div className="hero-text">
           <p>{heroData.text1}</p>
           <p>{heroData.text2}</p>

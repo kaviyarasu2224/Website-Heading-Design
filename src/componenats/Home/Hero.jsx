@@ -16,6 +16,7 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
           <p>Explors the features</p>
           <img src={arrow_btn} alt="" />
         </div>
+        
         <div className="hero-dot-play">
           
           <ul className="hero-dots">
